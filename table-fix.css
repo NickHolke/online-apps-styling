@@ -1,0 +1,13 @@
+#aspnetForm table:nth-child(8) {
+  width: 100%;
+}
+#aspnetForm table:nth-child(8) tr {
+  white-space: nowrap;
+  text-align: center;
+}
+#aspnetForm table:nth-child(8) th {
+  text-align: center;
+}
+#aspnetForm table:nth-child(8) td {
+  text-align: center;
+}
