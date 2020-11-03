@@ -1,13 +1,65 @@
+#aspnetForm {
+  color: #4c4c4c;
+}
 #aspnetForm table:nth-child(8) {
   width: 100%;
+}
+#aspnetForm table:nth-child(8) .MoneyMarketHeaderStyle {
+  background-image: none !important;
+  background-color: rgba(87, 87, 87, 0.9) !important;
+  font-weight: 600;
 }
 #aspnetForm table:nth-child(8) tr {
   white-space: nowrap;
   text-align: center;
 }
 #aspnetForm table:nth-child(8) th {
+  color: #4c4c4c;
   text-align: center;
+  padding: 15px 12px 10px;
 }
 #aspnetForm table:nth-child(8) td {
   text-align: center;
+}
+#aspnetForm .TitleRed {
+  border-bottom: 1px solid #bfbfbf !important;
+}
+#aspnetForm table:nth-child(4) {
+  border: none;
+}
+#aspnetForm table:nth-child(4) ul {
+  margin: 0 0 0 20px;
+}
+#aspnetForm table:nth-child(4) ul li {
+  margin-bottom: 10px;
+  padding-left: 6px;
+}
+#aspnetForm table:nth-child(4) ul li:last-child {
+  margin-bottom: 0;
+}
+#aspnetForm table:nth-child(4) tbody {
+  border: none;
+}
+#aspnetForm table:nth-child(4) tbody td {
+  border: none;
+}
+#aspnetForm table:nth-child(4) tbody tr {
+  border: none;
+}
+#aspnetForm table:nth-child(4) tbody tr:first-child {
+  text-align: left !important;
+  font-size: 14px;
+}
+@media (max-width: 400px) {
+  #aspnetForm table:nth-child(4) ul {
+    margin: 0;
+    padding-left: 15px;
+  }
+  #aspnetForm table:nth-child(4) ul li {
+    margin-bottom: 10px;
+    padding-left: 4px;
+  }
+  #aspnetForm table:nth-child(4) ul li:last-child {
+    margin-bottom: 0;
+  }
 }
