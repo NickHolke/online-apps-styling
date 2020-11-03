@@ -1,21 +1,20 @@
-table th {
-  background-image: none !important;
-  background-color: rgba(87, 87, 87, 0.9);
-}
-form .TitleBlue {
+.span9 form .TitleBlue {
   font-family: interstate, sans-serif;
-  color: #4c4c4c;
 }
-form article {
+.span9 form article {
   margin-bottom: 20px;
   margin-top: 10px;
 }
-.SimpleTableHeader td {
+.span9 form article table td.SimpleTableHeader {
+  color: #4c4c4c;
+  font-size: 13px;
+}
+.span9 form article table .SimpleTableHeader td {
   color: #4c4c4c;
   padding-top: 16px;
   font-size: 13px;
 }
-td.SimpleTableHeader {
-  color: #4c4c4c;
-  font-size: 13px;
+.span9 form article table th {
+  background-image: none !important;
+  background-color: rgba(87, 87, 87, 0.9);
 }
