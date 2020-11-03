@@ -263,6 +263,10 @@ footer #ehl-footer {
   .utilities ul {
     display: none !important;
   }
+
+  form .row-fluid .span3 {
+    display: none;
+  }
 }
 @media (max-width: 400px) {
   .header .phone .icon-phone {
