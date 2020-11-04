@@ -1,18 +1,31 @@
 @import url('https://p.typekit.net/p.css?s=1&k=arr5xsw&ht=tk&f=31143.31144.31145&a=3064263&app=typekit&e=css');
+
+@font-face {
+  font-family: 'Noe Display';
+  src: url('https://www.fremontbank.com/Fremont/media/Misc/Noe-Display-Medium.woff')
+      format('woff'),
+    url('https://www.fremontbank.com/Fremont/media/Misc/Noe-Display-Medium.eot')
+      format('eot');
+}
+
 body {
   border-top: none !important;
-}
-body {
+  -webkit-font-smoothing: antialiased;
   font-family: interstate, sans-serif;
   color: #4c4c4c;
 }
 
+.TitleBlue,
+.TitleRed,
+.title,
 h1,
 h2,
 h3,
 h4 {
-  font-family: interstate, sans-serif !important;
+  font-family: 'Noe Display', sans-serif !important;
+  font-weight: 500 !important;
 }
+
 .nav.nav-utility > li {
   display: inline-block !important;
 }
