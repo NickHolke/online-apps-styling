@@ -280,6 +280,10 @@ footer #ehl-footer {
   form .row-fluid .span3 {
     display: none;
   }
+
+  form aside {
+    display: none !important;
+  }
 }
 @media (max-width: 400px) {
   .header .phone .icon-phone {
