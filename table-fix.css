@@ -1,65 +1,59 @@
-#aspnetForm {
-  color: #4c4c4c;
+.TitleRed + table {
+  border: none;
 }
-#aspnetForm table:nth-child(8) {
+.TitleRed + table ul {
+  margin: 0 0 0 20px;
+}
+.TitleRed + table ul li {
+  margin-bottom: 10px;
+  padding-left: 6px;
+}
+.TitleRed + table ul li:last-child {
+  margin-bottom: 0;
+}
+.TitleRed + table tbody {
+  border: none;
+}
+.TitleRed + table tbody td {
+  border: none;
+}
+.TitleRed + table tbody tr {
+  border: none;
+}
+.TitleRed + table tbody tr:first-child {
+  text-align: left !important;
+  font-size: 14px;
+}
+table:last-of-type {
   width: 100%;
 }
-#aspnetForm table:nth-child(8) .MoneyMarketHeaderStyle {
-  background-image: none !important;
-  background-color: rgba(87, 87, 87, 0.9) !important;
-  font-weight: 600;
-}
-#aspnetForm table:nth-child(8) tr {
+table:last-of-type tr {
   white-space: nowrap;
   text-align: center;
 }
-#aspnetForm table:nth-child(8) th {
+table:last-of-type th {
   color: #4c4c4c;
   text-align: center;
   padding: 15px 12px 10px;
 }
-#aspnetForm table:nth-child(8) td {
+table:last-of-type td {
   text-align: center;
 }
-#aspnetForm .TitleRed {
-  border-bottom: 1px solid #bfbfbf !important;
-}
-#aspnetForm table:nth-child(4) {
-  border: none;
-}
-#aspnetForm table:nth-child(4) ul {
-  margin: 0 0 0 20px;
-}
-#aspnetForm table:nth-child(4) ul li {
-  margin-bottom: 10px;
-  padding-left: 6px;
-}
-#aspnetForm table:nth-child(4) ul li:last-child {
-  margin-bottom: 0;
-}
-#aspnetForm table:nth-child(4) tbody {
-  border: none;
-}
-#aspnetForm table:nth-child(4) tbody td {
-  border: none;
-}
-#aspnetForm table:nth-child(4) tbody tr {
-  border: none;
-}
-#aspnetForm table:nth-child(4) tbody tr:first-child {
-  text-align: left !important;
-  font-size: 14px;
+table:last-of-type .MoneyMarketHeaderStyle {
+  background-image: none !important;
+  background-color: rgba(87, 87, 87, 0.9) !important;
+  font-weight: 600;
 }
 @media (max-width: 400px) {
-  #aspnetForm table:nth-child(4) ul {
+  .TitleRed + table ul {
     margin: 0;
     padding-left: 15px;
   }
-  #aspnetForm table:nth-child(4) ul li {
+  .TitleRed + table ul li {
     margin-bottom: 10px;
     padding-left: 4px;
   }
-  #aspnetForm table:nth-child(4) ul li:last-child {
+  .TitleRed + table ul li:last-child {
     margin-bottom: 0;
   }
 }
