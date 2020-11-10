@@ -42,6 +42,7 @@ table:last-of-type td {
 table:last-of-type .MoneyMarketHeaderStyle {
   background-image: none !important;
   background-color: rgba(87, 87, 87, 0.9) !important;
+  border: none !important;
   font-weight: 600;
 }
 @media (max-width: 400px) {

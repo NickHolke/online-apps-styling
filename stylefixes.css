@@ -301,3 +301,32 @@ footer #ehl-footer {
     font-weight: normal !important;
   }
 }
+
+.utilities a,
+.utilities .phone {
+  font-size: 13px !important;
+}
+.container {
+  max-width: 1200px !important;
+}
+.icon-phone {
+  transform: scale(0.75);
+  filter: grayscale(1);
+}
+.main:before {
+  display: none;
+}
+.main .TitleBlue,
+.main .TitleRed {
+  border-bottom: 1px solid #e8e8e8 !important;
+  margin-bottom: 40px;
+}
+@media (min-width: 991px) {
+  .main .TitleBlue,
+  .main .TitleRed {
+    font-size: 42px;
+  }
+}
+.main p + table {
+  margin-top: 10px !important;
+}
